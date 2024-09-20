@@ -49,8 +49,8 @@
 
   /* sphinx hover-ref theming */
   /* Until https://github.com/readthedocs/sphinx-hoverxref/issues/231 is fixed */
-  --hoverxref-bg-color-dark: dimgray;
-  --hoverxref-bg-color-light: rgb(100, 99, 99);
+  --hoverxref-bg-color-dark: rgb(255, 255, 255);
+  --hoverxref-bg-color-light: rgb(255, 255, 255);
   /* dark means light-on-dark so fg-color-dark is a light color */
   --hoverxref-fg-color-dark: white;
   --hoverxref-fg-color-light: black;
@@ -60,6 +60,8 @@ html[data-theme="light"] {
   /* A lot of these colors we have inherited from pst however, I have copied them all */
   /* in here to make it obvious which colors are in use, and to shield us from any */
   /* upstream changes. */
+
+  --sst-header-background: #f0f0f0;  
   --pst-color-accent-bg: #f8dff5;
   --pst-color-accent: var(--sst-accent-color-bright);
   --pst-color-attention-bg: var(--pst-color-warning-bg);
@@ -75,7 +77,7 @@ html[data-theme="light"] {
   --pst-color-link-hover: var(--sst-accent-color-muted);
   --pst-color-link: var(--sst-accent-color-bright);
   --pst-color-on-background: #fff;
-  --pst-color-on-surface: #222832;
+  --pst-color-on-surface: #ffffff;
   --pst-color-primary-bg: #d0ecf1;
   --pst-color-primary: var(--sst-accent-color-bright);
   --pst-color-secondary-bg: #e0c7ff;
@@ -84,7 +86,7 @@ html[data-theme="light"] {
   --pst-color-success-bg: #d6ece1;
   --pst-color-surface: var(--sst-lightest-color);
   --pst-color-target: #f3cf95;
-  --pst-color-text-muted: #48566b;
+  --pst-color-text-muted: #ffffff;
   --pst-color-warning-bg: #f8e3d0;
   --pst-color-table-row-hover-bg: var(--pst-color-attention-bg);
 
